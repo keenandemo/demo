@@ -1,0 +1,16 @@
+{{ define "templates/index_locked.html" }}
+<!DOCTYPE html>
+<head>
+    <title>{{ .title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/static/css/frontdoor.css">
+</head>
+<body>
+    <div class="center">
+        <form action method="POST">
+            <input name="key" type="text" placeholder="Hi!" class="frontdoor-textfield"><input type="submit" value="Go" id="submit">
+        </form>
+    </div>
+</body>
+</html>
+{{ end }}

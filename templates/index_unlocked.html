@@ -1,0 +1,19 @@
+{{ define "templates/index_unlocked.html" }}
+<!DOCTYPE html>
+<head>
+    <title>Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+    <header>
+        <a href="https://github.com/keenandemo/keenandemo" target="_blank"><img src="/static/images/gh.png" id="github" alt="link to github repo"></a>
+        <span class="nav" data-cmd="clear-filter">Show all</span>
+        <span class="nav" data-cmd="filter-ingest">To sort</span>
+        <span class="nav" data-cmd="filter-movies">Movies</span>
+        <span class="nav" data-cmd="filter-tv">TV shows</span>
+    </header>
+    <div id="content"></div>
+</body>
+</html>
+{{ end }}

@@ -1,0 +1,28 @@
+#github {
+    height: 40px;
+    width: 40x;
+}
+
+header {
+    background-color: #1c1c1c;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    background-color: #2b2b2b;
+}
+
+span.nav {
+    color: #e7e7e7;
+    font-family: sans-serif;
+    padding: 5px 5px;
+    margin: 10px 5px 0px 5px;
+    vertical-align: 10px;
+}
+
+span.nav:hover {
+    color: #e7e7e7;
+    background-color: #2b2b2b;
+    cursor: pointer;
+}
